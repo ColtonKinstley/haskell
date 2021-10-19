@@ -162,5 +162,5 @@ gimme = go 0
 rowSumOddNumbers :: Integer -> Integer
 rowSumOddNumbers n = (div (n*(n+1)) 2)^2 - (div (n*(n-1)) 2)^2
 
-isPangram :: String -> Bool
-isPangram str = go "abcdef"
+-- isPangram :: String -> Bool
+-- isPangram str = go "abcdef"
